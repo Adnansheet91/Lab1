@@ -6,6 +6,8 @@ public class Main {
 
 
         Person person = new Person("Adnan Sheet", 29);
+
+        System.out.println(person.reverseName (person.name));
         System.out.println(person.reverseName (person.name));
     }
 }
